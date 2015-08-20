@@ -95,6 +95,10 @@ function savePreset(args) {
 function deletePreset(args) {
     var presets = Object.keys(configstore.all);
 
+    if (!presets.length) {
+        exitWithError('no presets found');
+    }
+
     inquirer.prompt([{
         type: "list",
         name: "preset",

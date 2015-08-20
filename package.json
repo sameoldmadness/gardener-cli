@@ -1,6 +1,6 @@
 {
   "name": "gardener-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Save and restore windows position with ease",
   "main": "index.js",
   "bin": {
