@@ -1,0 +1,21 @@
+{
+  "name": "gardener-cli",
+  "version": "0.0.1",
+  "description": "Save and restore windows position with ease",
+  "main": "index.js",
+  "bin": {
+    "gardener": "index.js"
+  },
+  "repository": "sameoldmadness/gardener-cli",
+  "preferGlobal": true,
+  "author": "Roman Paradeev <sameoldmadness@gmail.com> (http://github.com/sameoldmadness)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "1.1.1",
+    "configstore": "1.2.1",
+    "inquirer": "0.9.0",
+    "isbin": "0.0.2",
+    "minimist": "1.1.3",
+    "multiline": "^1.0.2"
+  }
+}
