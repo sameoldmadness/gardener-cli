@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var isbin = require('isbin');
 var chalk = require('chalk');
 var inquirer = require('inquirer');
