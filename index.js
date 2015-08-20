@@ -146,26 +146,28 @@ if (!isbin('wmctrl')) {
     exitWithError('wmctrl is not installed');
 }
 
-if (args.help) {
+else if (args.help) {
     showHelp();
     process.exit();
 }
 
-if (args.version) {
+else if (args.version) {
     console.log(pkg.version);
     process.exit();
 }
 
-if (args.save) {
+else if (args.save) {
     savePreset(args);
 }
 
-if (args.restore) {
+else if (args.restore) {
     restorePreset(args);
 }
 
-if (args.del) {
+else if (args.del) {
     deletePreset(args);
 }
 
-choosePreset();
+else {
+    choosePreset();
+}
