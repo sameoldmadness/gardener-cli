@@ -10,6 +10,16 @@
   "preferGlobal": true,
   "author": "Roman Paradeev <sameoldmadness@gmail.com> (http://github.com/sameoldmadness)",
   "license": "MIT",
+  "keywords": [
+    "position",
+    "restore",
+    "screen",
+    "display",
+    "unplug",
+    "linux",
+    "ubuntu",
+    "dual"
+  ],
   "dependencies": {
     "chalk": "1.1.1",
     "configstore": "1.2.1",
